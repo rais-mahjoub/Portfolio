@@ -1,0 +1,188 @@
+/* Commun */
+body{
+    background-color: wheat;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}      
+.nav  {
+    text-decoration: none;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 20px;
+}
+header{
+    background-image: url("https://syxperiane.com/wp-content/uploads/2023/07/illustration-dun-parc-informatique-1024x640.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    height: 50vh;
+}
+.up-button-div{
+    text-align: right;
+}
+.up-button{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.title-abt-me, .cv-title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 5rem
+}
+
+/* Accueil */
+.home-title{
+    text-align: center;
+    margin: 25px;
+    font-family: 'Comic sans MS';
+    font-size: 50px;
+    color: blue;
+}
+/* .home-contain{
+    width: 100%
+} */
+#sommaire-grid{
+    display: flex;
+}
+#sommaire{
+        display: flex;
+        flex-direction: column;
+        margin: 8vw;
+        margin-top: 2vw;
+        background-color: #ddd;
+        border-style: solid;
+        border-color: #333;
+        border-width: 3px;
+        border-radius: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 30%;
+        height: 30%;
+        row-gap: 10px;
+        /* padding-bottom: 25px; */
+}
+/* #home-à-propos{
+    padding-right: 8vw;
+} */
+.home-subtitle{
+    font-family: sans-serif;
+    /* margin-right: 10vw; */
+    text-align: center;
+    font-size: 35px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.home-text{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter; 
+}
+.sommaire-txt, #sommaire-title{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+#sommaire-title{
+    margin: 25px;
+    text-align: center;
+}
+#index-à-propos{
+    margin-right: 6vw;
+}
+#index-CV, #index-prods{
+    margin: 6vw;
+}
+.home-contain{ 
+    border: #333 solid 2px;
+    border-radius: 10%;
+    background-color: #eee;
+    margin: 8vw;
+    background-color: #fff;
+}
+.home-skills{
+    text-align: center;
+}
+.home-button{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    /* border-radius: 20%; */
+    font-size: 30px;
+    margin: 20px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+}
+
+/* à propos de moi */
+.abt-me-contain {
+    border: black solid 2px;
+    border-radius: 10%;
+    /* margin-top: 5vw; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 3vw;
+    background-color: aliceblue;
+    padding: 2vw;
+}
+.txt-abt-me {
+    font-family: 'Times New Roman';
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*CV*/
+.cv-contain{
+    background-color: aliceblue;
+    padding: 2vw;
+    border: black solid 2px;
+    border-radius: 10%;
+    margin: 5vw;
+    display: flex; 
+    justify-content: space-evenly; 
+    text-align: justify;
+}
+#nom-cv{
+    text-align: center;
+}
+.CV-subtitle{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+.txt-com{
+    font-size: 30px; 
+    font-family: 'Comic sans MS'; 
+    color: black;
+}
+.txt-cv{
+    font-size: 20px;
+}
+.cv-dispo{
+    margin-left: 25px; 
+    margin-right: 25px; 
+    margin-bottom: 30px;
+}
+#pdf{
+    font-size: 18px; 
+    color: red;
+}
+.a-cv{
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: #FFFFFF;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+footer{
+    text-align: center;
+}
+.text{
+    font-size: 30px; 
+    font-family: 'Comic sans MS'; 
+    color: black;
+}
+.txt-cv{
+    font-size: 20px;
+}
+main{
+    display: flex; 
+    justify-content: space-evenly; 
+    text-align: justify;
+}
+div{
+    margin-left: 25px; 
+    margin-right: 25px; 
+    margin-bottom: 30px;
+}
+#pdf{
+    font-size: 18px; 
+    color: red;
+}
+a{
+    text-decoration: none;
+}
